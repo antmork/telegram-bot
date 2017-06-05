@@ -15,7 +15,7 @@ bot.on('message', function(msg){
 				bot.sendMessage(id, eval(msg.text));
 			}
 			catch (e) {
-				bot.sendMessage(id, 'Syntax error, please, try again');
+				bot.sendMessage(id, 'Syntax error, please try again');
 			}
 		}
 		else {
