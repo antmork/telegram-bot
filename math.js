@@ -19,7 +19,7 @@ bot.on('message', function(msg){
 			}
 		}
 		else {
-			bot.sendMessage(id, 'Incorret value, please, try again');
+			bot.sendMessage(id, 'Only numbers, "+", "-", "*", "/", "(" and ")" are allowed.');
 		}
 	}
 });
