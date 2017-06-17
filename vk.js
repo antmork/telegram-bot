@@ -92,6 +92,7 @@ bot.on('message', function(msg){
 						bot.sendMessage(id, 'Only numbers, "+", "-", "*", "/", "(" and ")" are allowed.');
 					}
 				}
+				
 				//====================================
 			}
 		}
